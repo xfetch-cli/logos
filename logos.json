@@ -1,0 +1,2690 @@
+{
+  "schema_version": "1.0.0",
+  "name": "Operating system logos",
+  "description": "Catalog of Linux distribution, macOS and Windows logos rendered in ASCII. Each entry points to the ASCII art file inside the defaults/<category>/ folder",
+  "defaults": {
+    "linux": "defaults/linux/default.txt",
+    "macos": "defaults/macos/default.txt",
+    "windows": "defaults/windows/default.txt"
+  },
+  "categories": [
+    {
+      "id": "linux",
+      "name": "Linux",
+      "directory": "defaults/linux",
+      "description": "GNU/Linux distributions"
+    },
+    {
+      "id": "macos",
+      "name": "macOS",
+      "directory": "defaults/macos",
+      "description": "Apple macOS / Mac OS X"
+    },
+    {
+      "id": "windows",
+      "name": "Windows",
+      "directory": "defaults/windows",
+      "description": "Microsoft Windows"
+    }
+  ],
+  "families": [
+    {
+      "id": "debian",
+      "name": "Debian / Ubuntu",
+      "category": "linux",
+      "base": "debian",
+      "notes": "apt / dpkg (.deb)"
+    },
+    {
+      "id": "arch",
+      "name": "Arch Linux",
+      "category": "linux",
+      "base": "arch",
+      "notes": "pacman / AUR"
+    },
+    {
+      "id": "fedora",
+      "name": "Fedora / RHEL",
+      "category": "linux",
+      "base": "fedora",
+      "notes": "dnf / rpm"
+    },
+    {
+      "id": "opensuse",
+      "name": "openSUSE",
+      "category": "linux",
+      "base": "opensuse",
+      "notes": "zypper / rpm"
+    },
+    {
+      "id": "independent",
+      "name": "Independent",
+      "category": "linux",
+      "base": null,
+      "notes": "Not derived from another distribution"
+    },
+    {
+      "id": "macos",
+      "name": "Apple macOS",
+      "category": "macos",
+      "base": "macos",
+      "notes": "Darwin / XNU kernel"
+    },
+    {
+      "id": "windows",
+      "name": "Microsoft Windows",
+      "category": "windows",
+      "base": "windows",
+      "notes": "NT kernel"
+    }
+  ],
+  "logos": [
+    {
+      "id": "debian",
+      "name": "Debian",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "debian",
+        "debian gnu/linux"
+      ],
+      "file": "defaults/linux/debian.txt",
+      "colors": {
+        "primary": "#A81D33",
+        "secondary": "#D70A53"
+      },
+      "url": "https://www.debian.org",
+      "ansi": {
+        "primary": 125,
+        "secondary": 161
+      }
+    },
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu",
+        "ubuntu linux",
+        "ubuntu 24.04",
+        "ubuntu 22.04",
+        "ubuntu 20.04",
+        "noble",
+        "jammy",
+        "focal"
+      ],
+      "file": "defaults/linux/ubuntu.txt",
+      "colors": {
+        "primary": "#E95420",
+        "secondary": "#772953"
+      },
+      "url": "https://ubuntu.com",
+      "ansi": {
+        "primary": 166,
+        "secondary": 89
+      }
+    },
+    {
+      "id": "kubuntu",
+      "name": "Kubuntu",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "kubuntu"
+      ],
+      "file": "defaults/linux/kubuntu.txt",
+      "colors": {
+        "primary": "#0079C1",
+        "secondary": "#4E9ACB"
+      },
+      "url": "https://kubuntu.org",
+      "ansi": {
+        "primary": 31,
+        "secondary": 68
+      }
+    },
+    {
+      "id": "xubuntu",
+      "name": "Xubuntu",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "xubuntu"
+      ],
+      "file": "defaults/linux/xubuntu.txt",
+      "colors": {
+        "primary": "#11449A",
+        "secondary": "#8CA7D8"
+      },
+      "url": "https://xubuntu.org",
+      "ansi": {
+        "primary": 24,
+        "secondary": 110
+      }
+    },
+    {
+      "id": "lubuntu",
+      "name": "Lubuntu",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "lubuntu"
+      ],
+      "file": "defaults/linux/lubuntu.txt",
+      "colors": {
+        "primary": "#0068C8",
+        "secondary": "#B8CC24"
+      },
+      "url": "https://lubuntu.me",
+      "ansi": {
+        "primary": 26,
+        "secondary": 148
+      }
+    },
+    {
+      "id": "ubuntu-mate",
+      "name": "Ubuntu MATE",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu mate",
+        "mate"
+      ],
+      "file": "defaults/linux/ubuntu-mate.txt",
+      "colors": {
+        "primary": "#87A556",
+        "secondary": "#4C8CBF"
+      },
+      "url": "https://ubuntu-mate.org",
+      "ansi": {
+        "primary": 107,
+        "secondary": 67
+      }
+    },
+    {
+      "id": "ubuntu-budgie",
+      "name": "Ubuntu Budgie",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu budgie",
+        "budgie"
+      ],
+      "file": "defaults/linux/ubuntu-budgie.txt",
+      "colors": {
+        "primary": "#4A90D9",
+        "secondary": "#9D5FB0"
+      },
+      "url": "https://ubuntubudgie.org",
+      "ansi": {
+        "primary": 68,
+        "secondary": 133
+      }
+    },
+    {
+      "id": "ubuntu-studio",
+      "name": "Ubuntu Studio",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu studio",
+        "studio"
+      ],
+      "file": "defaults/linux/ubuntu-studio.txt",
+      "colors": {
+        "primary": "#6F48B7",
+        "secondary": "#D67A00"
+      },
+      "url": "https://ubuntustudio.org",
+      "ansi": {
+        "primary": 61,
+        "secondary": 172
+      }
+    },
+    {
+      "id": "ubuntu-kylin",
+      "name": "Ubuntu Kylin",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu kylin",
+        "kylin"
+      ],
+      "file": "defaults/linux/ubuntu-kylin.txt",
+      "colors": {
+        "primary": "#4CA2FF",
+        "secondary": "#E95420"
+      },
+      "url": "https://www.ubuntukylin.com",
+      "ansi": {
+        "primary": 75,
+        "secondary": 166
+      }
+    },
+    {
+      "id": "ubuntu-cinnamon",
+      "name": "Ubuntu Cinnamon",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu cinnamon",
+        "cinnamon"
+      ],
+      "file": "defaults/linux/ubuntu-cinnamon.txt",
+      "colors": {
+        "primary": "#A67C52",
+        "secondary": "#E95420"
+      },
+      "url": "https://ubuntucinnamon.org",
+      "ansi": {
+        "primary": 137,
+        "secondary": 166
+      }
+    },
+    {
+      "id": "ubuntu-unity",
+      "name": "Ubuntu Unity",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu unity",
+        "unity"
+      ],
+      "file": "defaults/linux/ubuntu-unity.txt",
+      "colors": {
+        "primary": "#6E4B87",
+        "secondary": "#A7A7A7"
+      },
+      "url": "https://ubuntuunity.org",
+      "ansi": {
+        "primary": 60,
+        "secondary": 248
+      }
+    },
+    {
+      "id": "edubuntu",
+      "name": "Edubuntu",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "edubuntu"
+      ],
+      "file": "defaults/linux/edubuntu.txt",
+      "colors": {
+        "primary": "#CA3433",
+        "secondary": "#F7C948"
+      },
+      "url": "https://edubuntu.org",
+      "ansi": {
+        "primary": 167,
+        "secondary": 221
+      }
+    },
+    {
+      "id": "ubuntu-server",
+      "name": "Ubuntu Server",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "ubuntu server",
+        "server ubuntu"
+      ],
+      "file": "defaults/linux/ubuntu-server.txt",
+      "colors": {
+        "primary": "#E95420",
+        "secondary": "#333333"
+      },
+      "url": "https://ubuntu.com/server",
+      "ansi": {
+        "primary": 166,
+        "secondary": 236
+      }
+    },
+    {
+      "id": "linux-mint",
+      "name": "Linux Mint",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "linux mint",
+        "mint",
+        "linuxmint"
+      ],
+      "file": "defaults/linux/linux-mint.txt",
+      "colors": {
+        "primary": "#87CF3E",
+        "secondary": "#CBE06A"
+      },
+      "url": "https://linuxmint.com",
+      "ansi": {
+        "primary": 113,
+        "secondary": 185
+      }
+    },
+    {
+      "id": "lmde",
+      "name": "Linux Mint Debian Edition (LMDE)",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "lmde",
+        "linux mint debian edition",
+        "mint debian"
+      ],
+      "file": "defaults/linux/lmde.txt",
+      "colors": {
+        "primary": "#87CF3E",
+        "secondary": "#2FA1D6"
+      },
+      "url": "https://linuxmint.com",
+      "ansi": {
+        "primary": 113,
+        "secondary": 38
+      }
+    },
+    {
+      "id": "pop-os",
+      "name": "Pop!_OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "pop os",
+        "popos",
+        "pop!_os",
+        "pop"
+      ],
+      "file": "defaults/linux/pop-os.txt",
+      "colors": {
+        "primary": "#48A9C5",
+        "secondary": "#FF6B35"
+      },
+      "url": "https://pop.system76.com",
+      "ansi": {
+        "primary": 74,
+        "secondary": 203
+      }
+    },
+    {
+      "id": "elementary",
+      "name": "elementary OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "elementary os",
+        "elementary"
+      ],
+      "file": "defaults/linux/elementary.txt",
+      "colors": {
+        "primary": "#64BAFF",
+        "secondary": "#389FD8"
+      },
+      "url": "https://elementary.io",
+      "ansi": {
+        "primary": 75,
+        "secondary": 74
+      }
+    },
+    {
+      "id": "zorin",
+      "name": "Zorin OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "zorin os",
+        "zorin"
+      ],
+      "file": "defaults/linux/zorin.txt",
+      "colors": {
+        "primary": "#15A6F0",
+        "secondary": "#0CC1B3"
+      },
+      "url": "https://zorin.com/os",
+      "ansi": {
+        "primary": 39,
+        "secondary": 37
+      }
+    },
+    {
+      "id": "kde-neon",
+      "name": "KDE neon",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "kde neon",
+        "neon"
+      ],
+      "file": "defaults/linux/kde-neon.txt",
+      "colors": {
+        "primary": "#1FA3FF",
+        "secondary": "#0F73B9"
+      },
+      "url": "https://neon.kde.org",
+      "ansi": {
+        "primary": 39,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "kali",
+      "name": "Kali Linux",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "kali linux",
+        "kali"
+      ],
+      "file": "defaults/linux/kali.txt",
+      "colors": {
+        "primary": "#557C94",
+        "secondary": "#26B1E8"
+      },
+      "url": "https://www.kali.org",
+      "ansi": {
+        "primary": 66,
+        "secondary": 38
+      }
+    },
+    {
+      "id": "parrot",
+      "name": "Parrot OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "parrot os",
+        "parrot"
+      ],
+      "file": "defaults/linux/parrot.txt",
+      "colors": {
+        "primary": "#19B28E",
+        "secondary": "#10A674"
+      },
+      "url": "https://www.parrotsec.org",
+      "ansi": {
+        "primary": 36,
+        "secondary": 36
+      }
+    },
+    {
+      "id": "tails",
+      "name": "Tails",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "tails",
+        "tails os",
+        "the amnesic incognito live system"
+      ],
+      "file": "defaults/linux/tails.txt",
+      "colors": {
+        "primary": "#56347C",
+        "secondary": "#A855F7"
+      },
+      "url": "https://tails.net",
+      "ansi": {
+        "primary": 60,
+        "secondary": 135
+      }
+    },
+    {
+      "id": "mx-linux",
+      "name": "MX Linux",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "mx linux",
+        "mx"
+      ],
+      "file": "defaults/linux/mx-linux.txt",
+      "colors": {
+        "primary": "#404B59",
+        "secondary": "#8CC63F"
+      },
+      "url": "https://mxlinux.org",
+      "ansi": {
+        "primary": 239,
+        "secondary": 113
+      }
+    },
+    {
+      "id": "deepin",
+      "name": "Deepin",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "deepin",
+        "deepin linux",
+        "deepin os"
+      ],
+      "file": "defaults/linux/deepin.txt",
+      "colors": {
+        "primary": "#1CA7EC",
+        "secondary": "#0A56D0"
+      },
+      "url": "https://www.deepin.org",
+      "ansi": {
+        "primary": 39,
+        "secondary": 26
+      }
+    },
+    {
+      "id": "raspberrypi",
+      "name": "Raspberry Pi OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "raspberry pi os",
+        "raspbian",
+        "raspberry pi",
+        "rpi os",
+        "rpi"
+      ],
+      "file": "defaults/linux/raspberrypi.txt",
+      "colors": {
+        "primary": "#C51A4A",
+        "secondary": "#7B0F30"
+      },
+      "url": "https://www.raspberrypi.com/software",
+      "ansi": {
+        "primary": 161,
+        "secondary": 89
+      }
+    },
+    {
+      "id": "antix",
+      "name": "antiX",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "antix",
+        "anti-x"
+      ],
+      "file": "defaults/linux/antix.txt",
+      "colors": {
+        "primary": "#8ABF4F",
+        "secondary": "#6E7F3C"
+      },
+      "url": "https://antixlinux.com",
+      "ansi": {
+        "primary": 107,
+        "secondary": 65
+      }
+    },
+    {
+      "id": "sparky",
+      "name": "SparkyLinux",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "sparkylinux",
+        "sparky linux",
+        "sparky"
+      ],
+      "file": "defaults/linux/sparky.txt",
+      "colors": {
+        "primary": "#FCDB04",
+        "secondary": "#E63244"
+      },
+      "url": "https://sparkylinux.org",
+      "ansi": {
+        "primary": 220,
+        "secondary": 167
+      }
+    },
+    {
+      "id": "bodhi",
+      "name": "Bodhi Linux",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "bodhi linux",
+        "bodhi"
+      ],
+      "file": "defaults/linux/bodhi.txt",
+      "colors": {
+        "primary": "#63B320",
+        "secondary": "#4E8F1F"
+      },
+      "url": "https://www.bodhilinux.com",
+      "ansi": {
+        "primary": 70,
+        "secondary": 64
+      }
+    },
+    {
+      "id": "devuan",
+      "name": "Devuan",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "devuan",
+        "devuan gnu/linux"
+      ],
+      "file": "defaults/linux/devuan.txt",
+      "colors": {
+        "primary": "#AD0A2C",
+        "secondary": "#555555"
+      },
+      "url": "https://www.devuan.org",
+      "ansi": {
+        "primary": 124,
+        "secondary": 240
+      }
+    },
+    {
+      "id": "peppermint",
+      "name": "Peppermint OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "peppermint os",
+        "peppermint"
+      ],
+      "file": "defaults/linux/peppermint.txt",
+      "colors": {
+        "primary": "#32A2DE",
+        "secondary": "#8FBC8F"
+      },
+      "url": "https://peppermintos.com",
+      "ansi": {
+        "primary": 74,
+        "secondary": 108
+      }
+    },
+    {
+      "id": "pureos",
+      "name": "PureOS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "pureos",
+        "pure os"
+      ],
+      "file": "defaults/linux/pureos.txt",
+      "colors": {
+        "primary": "#6B4FA1",
+        "secondary": "#8E6BC0"
+      },
+      "url": "https://pureos.net",
+      "ansi": {
+        "primary": 61,
+        "secondary": 97
+      }
+    },
+    {
+      "id": "nitrux",
+      "name": "Nitrux",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "nitrux",
+        "nitrux os"
+      ],
+      "file": "defaults/linux/nitrux.txt",
+      "colors": {
+        "primary": "#00B5FF",
+        "secondary": "#1A2B3C"
+      },
+      "url": "https://nxos.org",
+      "ansi": {
+        "primary": 39,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "steam-os",
+      "name": "SteamOS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "steamos",
+        "steam os",
+        "steam"
+      ],
+      "file": "defaults/linux/steam-os.txt",
+      "colors": {
+        "primary": "#66C0F4",
+        "secondary": "#1B2838"
+      },
+      "url": "https://store.steampowered.com/steamos",
+      "ansi": {
+        "primary": 75,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "q4os",
+      "name": "Q4OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "q4os"
+      ],
+      "file": "defaults/linux/q4os.txt",
+      "colors": {
+        "primary": "#2E6DB4",
+        "secondary": "#F5A623"
+      },
+      "url": "https://q4os.org",
+      "ansi": {
+        "primary": 25,
+        "secondary": 214
+      }
+    },
+    {
+      "id": "vanilla-os",
+      "name": "Vanilla OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "vanilla os",
+        "vanilla"
+      ],
+      "file": "defaults/linux/vanilla-os.txt",
+      "colors": {
+        "primary": "#93D500",
+        "secondary": "#6B8E23"
+      },
+      "url": "https://vanillaos.org",
+      "ansi": {
+        "primary": 112,
+        "secondary": 64
+      }
+    },
+    {
+      "id": "rhino-linux",
+      "name": "Rhino Linux",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "rhino linux",
+        "rhino"
+      ],
+      "file": "defaults/linux/rhino-linux.txt",
+      "colors": {
+        "primary": "#2ECC71",
+        "secondary": "#3498DB"
+      },
+      "url": "https://rhinolinux.org",
+      "ansi": {
+        "primary": 41,
+        "secondary": 68
+      }
+    },
+    {
+      "id": "pika-os",
+      "name": "Pika OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "pika os",
+        "pika"
+      ],
+      "file": "defaults/linux/pika-os.txt",
+      "colors": {
+        "primary": "#F2B705",
+        "secondary": "#8BC34A"
+      },
+      "url": "https://pika-os.com",
+      "ansi": {
+        "primary": 214,
+        "secondary": 107
+      }
+    },
+    {
+      "id": "voyager",
+      "name": "Voyager Live",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "voyager",
+        "voyager live"
+      ],
+      "file": "defaults/linux/voyager.txt",
+      "colors": {
+        "primary": "#00A2E8",
+        "secondary": "#003B5C"
+      },
+      "url": "https://voyagerlive.org",
+      "ansi": {
+        "primary": 38,
+        "secondary": 23
+      }
+    },
+    {
+      "id": "tuxedo-os",
+      "name": "TUXEDO OS",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "tuxedo os",
+        "tuxedo"
+      ],
+      "file": "defaults/linux/tuxedo-os.txt",
+      "colors": {
+        "primary": "#1E4B9B",
+        "secondary": "#F0B90B"
+      },
+      "url": "https://tuxedocomputers.com",
+      "ansi": {
+        "primary": 24,
+        "secondary": 214
+      }
+    },
+    {
+      "id": "crunchbang-plus-plus",
+      "name": "CrunchBang++",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "crunchbang++",
+        "crunchbang plus plus",
+        "cbpp",
+        "#!++"
+      ],
+      "file": "defaults/linux/crunchbang-plus-plus.txt",
+      "colors": {
+        "primary": "#FFC866",
+        "secondary": "#333333"
+      },
+      "url": "https://crunchbangplusplus.org",
+      "ansi": {
+        "primary": 221,
+        "secondary": 236
+      }
+    },
+    {
+      "id": "linux-lite",
+      "name": "Linux Lite",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "linux lite",
+        "lite"
+      ],
+      "file": "defaults/linux/linux-lite.txt",
+      "colors": {
+        "primary": "#A2B874",
+        "secondary": "#F4A914"
+      },
+      "url": "https://www.linuxliteos.com",
+      "ansi": {
+        "primary": 144,
+        "secondary": 214
+      }
+    },
+    {
+      "id": "proxmox",
+      "name": "Proxmox VE",
+      "category": "linux",
+      "family": "debian",
+      "aliases": [
+        "proxmox ve",
+        "proxmox virtual environment",
+        "proxmox",
+        "pve"
+      ],
+      "file": "defaults/linux/proxmox.txt",
+      "colors": {
+        "primary": "#E57000",
+        "secondary": "#8A8A8A"
+      },
+      "url": "https://www.proxmox.com",
+      "ansi": {
+        "primary": 166,
+        "secondary": 245
+      }
+    },
+    {
+      "id": "arch",
+      "name": "Arch Linux",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "arch",
+        "arch linux",
+        "arch gnu/linux"
+      ],
+      "file": "defaults/linux/arch.txt",
+      "colors": {
+        "primary": "#1793D1",
+        "secondary": "#33AADD"
+      },
+      "url": "https://archlinux.org",
+      "ansi": {
+        "primary": 32,
+        "secondary": 74
+      }
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "x",
+        "x linux",
+        "x-linux",
+        "x os"
+      ],
+      "file": "defaults/linux/x.txt",
+      "colors": {
+        "primary": "#00FFFF",
+        "secondary": "#00A3C4"
+      },
+      "url": "https://dev.xscriptor.com/x",
+      "ansi": {
+        "primary": 51,
+        "secondary": 38
+      }
+    },
+    {
+      "id": "manjaro",
+      "name": "Manjaro",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "manjaro",
+        "manjaro linux"
+      ],
+      "file": "defaults/linux/manjaro.txt",
+      "colors": {
+        "primary": "#34BE5B",
+        "secondary": "#12B9B9"
+      },
+      "url": "https://manjaro.org",
+      "ansi": {
+        "primary": 71,
+        "secondary": 37
+      }
+    },
+    {
+      "id": "endeavouros",
+      "name": "EndeavourOS",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "endeavouros",
+        "endeavour os",
+        "eos"
+      ],
+      "file": "defaults/linux/endeavouros.txt",
+      "colors": {
+        "primary": "#7F2BFF",
+        "secondary": "#2B2B2B"
+      },
+      "url": "https://endeavouros.com",
+      "ansi": {
+        "primary": 93,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "garuda",
+      "name": "Garuda Linux",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "garuda linux",
+        "garuda"
+      ],
+      "file": "defaults/linux/garuda.txt",
+      "colors": {
+        "primary": "#1399BF",
+        "secondary": "#F5A800"
+      },
+      "url": "https://garudalinux.org",
+      "ansi": {
+        "primary": 31,
+        "secondary": 214
+      }
+    },
+    {
+      "id": "cachyos",
+      "name": "CachyOS",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "cachyos",
+        "cachy os"
+      ],
+      "file": "defaults/linux/cachyos.txt",
+      "colors": {
+        "primary": "#2FA3FF",
+        "secondary": "#C5283D"
+      },
+      "url": "https://cachyos.org",
+      "ansi": {
+        "primary": 39,
+        "secondary": 161
+      }
+    },
+    {
+      "id": "artix",
+      "name": "Artix Linux",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "artix linux",
+        "artix"
+      ],
+      "file": "defaults/linux/artix.txt",
+      "colors": {
+        "primary": "#52C8FF",
+        "secondary": "#23A1E5"
+      },
+      "url": "https://artixlinux.org",
+      "ansi": {
+        "primary": 81,
+        "secondary": 38
+      }
+    },
+    {
+      "id": "arcolinux",
+      "name": "ArcoLinux",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "arcolinux",
+        "arco"
+      ],
+      "file": "defaults/linux/arcolinux.txt",
+      "colors": {
+        "primary": "#1793D1",
+        "secondary": "#F9A825"
+      },
+      "url": "https://arcolinux.com",
+      "ansi": {
+        "primary": 32,
+        "secondary": 214
+      }
+    },
+    {
+      "id": "rebornos",
+      "name": "RebornOS",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "rebornos",
+        "reborn os"
+      ],
+      "file": "defaults/linux/rebornos.txt",
+      "colors": {
+        "primary": "#12A0E0",
+        "secondary": "#F4695D"
+      },
+      "url": "https://rebornos.org",
+      "ansi": {
+        "primary": 38,
+        "secondary": 203
+      }
+    },
+    {
+      "id": "blackarch",
+      "name": "BlackArch",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "blackarch",
+        "black arch"
+      ],
+      "file": "defaults/linux/blackarch.txt",
+      "colors": {
+        "primary": "#1793D1",
+        "secondary": "#1B1B1B"
+      },
+      "url": "https://blackarch.org",
+      "ansi": {
+        "primary": 32,
+        "secondary": 234
+      }
+    },
+    {
+      "id": "archbang",
+      "name": "ArchBang",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "archbang",
+        "arch bang"
+      ],
+      "file": "defaults/linux/archbang.txt",
+      "colors": {
+        "primary": "#1793D1",
+        "secondary": "#FFFFFF"
+      },
+      "url": "https://archbang.org",
+      "ansi": {
+        "primary": 32,
+        "secondary": 231
+      }
+    },
+    {
+      "id": "holo-iso",
+      "name": "HoloISO",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "holoiso",
+        "holo iso",
+        "steam os 3"
+      ],
+      "file": "defaults/linux/holo-iso.txt",
+      "colors": {
+        "primary": "#66C0F4",
+        "secondary": "#1B2838"
+      },
+      "url": "https://holoiso.org",
+      "ansi": {
+        "primary": 75,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "xerolinux",
+      "name": "XeroLinux",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "xerolinux",
+        "xero"
+      ],
+      "file": "defaults/linux/xerolinux.txt",
+      "colors": {
+        "primary": "#FF2D95",
+        "secondary": "#212121"
+      },
+      "url": "https://xerolinux.xyz",
+      "ansi": {
+        "primary": 198,
+        "secondary": 234
+      }
+    },
+    {
+      "id": "mabox",
+      "name": "Mabox Linux",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "mabox",
+        "mabox linux"
+      ],
+      "file": "defaults/linux/mabox.txt",
+      "colors": {
+        "primary": "#FF8C00",
+        "secondary": "#333333"
+      },
+      "url": "https://maboxlinux.org",
+      "ansi": {
+        "primary": 208,
+        "secondary": 236
+      }
+    },
+    {
+      "id": "parabola",
+      "name": "Parabola GNU/Linux-libre",
+      "category": "linux",
+      "family": "arch",
+      "aliases": [
+        "parabola",
+        "parabola gnu/linux-libre"
+      ],
+      "file": "defaults/linux/parabola.txt",
+      "colors": {
+        "primary": "#5B8A00",
+        "secondary": "#1793D1"
+      },
+      "url": "https://www.parabola.nu",
+      "ansi": {
+        "primary": 64,
+        "secondary": 32
+      }
+    },
+    {
+      "id": "fedora",
+      "name": "Fedora",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "fedora",
+        "fedora linux",
+        "fedora workstation",
+        "fedora server"
+      ],
+      "file": "defaults/linux/fedora.txt",
+      "colors": {
+        "primary": "#294172",
+        "secondary": "#51A2DA"
+      },
+      "url": "https://fedoraproject.org",
+      "ansi": {
+        "primary": 239,
+        "secondary": 74
+      }
+    },
+    {
+      "id": "nobara",
+      "name": "Nobara",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "nobara",
+        "nobara linux",
+        "nobara project"
+      ],
+      "file": "defaults/linux/nobara.txt",
+      "colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#1E1E2E"
+      },
+      "url": "https://nobaraproject.org",
+      "ansi": {
+        "primary": 99,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "ultramarine",
+      "name": "Ultramarine Linux",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "ultramarine",
+        "ultramarine linux"
+      ],
+      "file": "defaults/linux/ultramarine.txt",
+      "colors": {
+        "primary": "#274B91",
+        "secondary": "#3B6FD4"
+      },
+      "url": "https://ultramarine-linux.org",
+      "ansi": {
+        "primary": 24,
+        "secondary": 62
+      }
+    },
+    {
+      "id": "rhel",
+      "name": "Red Hat Enterprise Linux",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "rhel",
+        "red hat",
+        "red hat enterprise linux",
+        "redhat"
+      ],
+      "file": "defaults/linux/rhel.txt",
+      "colors": {
+        "primary": "#EE0000",
+        "secondary": "#231F20"
+      },
+      "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
+      "ansi": {
+        "primary": 196,
+        "secondary": 234
+      }
+    },
+    {
+      "id": "centos",
+      "name": "CentOS",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "centos",
+        "centos 7"
+      ],
+      "file": "defaults/linux/centos.txt",
+      "colors": {
+        "primary": "#932279",
+        "secondary": "#4A1A68"
+      },
+      "url": "https://www.centos.org",
+      "ansi": {
+        "primary": 90,
+        "secondary": 53
+      }
+    },
+    {
+      "id": "centos-stream",
+      "name": "CentOS Stream",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "centos stream"
+      ],
+      "file": "defaults/linux/centos-stream.txt",
+      "colors": {
+        "primary": "#262577",
+        "secondary": "#932279"
+      },
+      "url": "https://www.centos.org/centos-stream",
+      "ansi": {
+        "primary": 18,
+        "secondary": 90
+      }
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky Linux",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "rocky linux",
+        "rocky"
+      ],
+      "file": "defaults/linux/rocky.txt",
+      "colors": {
+        "primary": "#10B981",
+        "secondary": "#2E3440"
+      },
+      "url": "https://rockylinux.org",
+      "ansi": {
+        "primary": 36,
+        "secondary": 237
+      }
+    },
+    {
+      "id": "alma",
+      "name": "AlmaLinux",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "almalinux",
+        "alma linux",
+        "alma"
+      ],
+      "file": "defaults/linux/alma.txt",
+      "colors": {
+        "primary": "#00B9F1",
+        "secondary": "#0B57A4"
+      },
+      "url": "https://almalinux.org",
+      "ansi": {
+        "primary": 39,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "oracle-linux",
+      "name": "Oracle Linux",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "oracle linux",
+        "oracle",
+        "ol"
+      ],
+      "file": "defaults/linux/oracle-linux.txt",
+      "colors": {
+        "primary": "#F80000",
+        "secondary": "#312D2A"
+      },
+      "url": "https://www.oracle.com/linux",
+      "ansi": {
+        "primary": 196,
+        "secondary": 236
+      }
+    },
+    {
+      "id": "eurolinux",
+      "name": "EuroLinux",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "eurolinux"
+      ],
+      "file": "defaults/linux/eurolinux.txt",
+      "colors": {
+        "primary": "#1968B7",
+        "secondary": "#FFFFFF"
+      },
+      "url": "https://euro-linux.com",
+      "ansi": {
+        "primary": 25,
+        "secondary": 231
+      }
+    },
+    {
+      "id": "clearos",
+      "name": "ClearOS",
+      "category": "linux",
+      "family": "fedora",
+      "aliases": [
+        "clearos",
+        "clear os"
+      ],
+      "file": "defaults/linux/clearos.txt",
+      "colors": {
+        "primary": "#0078C1",
+        "secondary": "#005A9E"
+      },
+      "url": "https://www.clearos.com",
+      "ansi": {
+        "primary": 31,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "opensuse-leap",
+      "name": "openSUSE Leap",
+      "category": "linux",
+      "family": "opensuse",
+      "aliases": [
+        "opensuse leap",
+        "leap"
+      ],
+      "file": "defaults/linux/opensuse-leap.txt",
+      "colors": {
+        "primary": "#73BA25",
+        "secondary": "#0C322C"
+      },
+      "url": "https://get.opensuse.org/leap",
+      "ansi": {
+        "primary": 70,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "opensuse-tumbleweed",
+      "name": "openSUSE Tumbleweed",
+      "category": "linux",
+      "family": "opensuse",
+      "aliases": [
+        "opensuse tumbleweed",
+        "tumbleweed"
+      ],
+      "file": "defaults/linux/opensuse-tumbleweed.txt",
+      "colors": {
+        "primary": "#73BA25",
+        "secondary": "#0C322C"
+      },
+      "url": "https://get.opensuse.org/tumbleweed",
+      "ansi": {
+        "primary": 70,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "geckolinux",
+      "name": "GeckoLinux",
+      "category": "linux",
+      "family": "opensuse",
+      "aliases": [
+        "geckolinux",
+        "gecko linux"
+      ],
+      "file": "defaults/linux/geckolinux.txt",
+      "colors": {
+        "primary": "#73BA25",
+        "secondary": "#9BCD4A"
+      },
+      "url": "https://geckolinux.github.io",
+      "ansi": {
+        "primary": 70,
+        "secondary": 113
+      }
+    },
+    {
+      "id": "sles",
+      "name": "SUSE Linux Enterprise Server",
+      "category": "linux",
+      "family": "opensuse",
+      "aliases": [
+        "sles",
+        "suse linux enterprise server",
+        "suse"
+      ],
+      "file": "defaults/linux/sles.txt",
+      "colors": {
+        "primary": "#30BA78",
+        "secondary": "#0C322C"
+      },
+      "url": "https://www.suse.com/products/server",
+      "ansi": {
+        "primary": 72,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "gentoo",
+      "name": "Gentoo Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "gentoo",
+        "gentoo linux"
+      ],
+      "file": "defaults/linux/gentoo.txt",
+      "colors": {
+        "primary": "#54487A",
+        "secondary": "#4D4D4D"
+      },
+      "url": "https://www.gentoo.org",
+      "ansi": {
+        "primary": 60,
+        "secondary": 239
+      }
+    },
+    {
+      "id": "funtoo",
+      "name": "Funtoo",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "funtoo",
+        "funtoo linux"
+      ],
+      "file": "defaults/linux/funtoo.txt",
+      "colors": {
+        "primary": "#5D8CBC",
+        "secondary": "#35638F"
+      },
+      "url": "https://www.funtoo.org",
+      "ansi": {
+        "primary": 67,
+        "secondary": 60
+      }
+    },
+    {
+      "id": "slackware",
+      "name": "Slackware",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "slackware",
+        "slackware linux"
+      ],
+      "file": "defaults/linux/slackware.txt",
+      "colors": {
+        "primary": "#444444",
+        "secondary": "#EEEEEE"
+      },
+      "url": "https://www.slackware.com",
+      "ansi": {
+        "primary": 238,
+        "secondary": 255
+      }
+    },
+    {
+      "id": "void",
+      "name": "Void Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "void linux",
+        "void"
+      ],
+      "file": "defaults/linux/void.txt",
+      "colors": {
+        "primary": "#478061",
+        "secondary": "#2F4F3A"
+      },
+      "url": "https://voidlinux.org",
+      "ansi": {
+        "primary": 65,
+        "secondary": 237
+      }
+    },
+    {
+      "id": "nixos",
+      "name": "NixOS",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "nixos",
+        "nix os"
+      ],
+      "file": "defaults/linux/nixos.txt",
+      "colors": {
+        "primary": "#5277C3",
+        "secondary": "#4B8EDC"
+      },
+      "url": "https://nixos.org",
+      "ansi": {
+        "primary": 67,
+        "secondary": 68
+      }
+    },
+    {
+      "id": "guix",
+      "name": "GNU Guix System",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "guix",
+        "guix system",
+        "gnu guix"
+      ],
+      "file": "defaults/linux/guix.txt",
+      "colors": {
+        "primary": "#A42E8B",
+        "secondary": "#F1B356"
+      },
+      "url": "https://guix.gnu.org",
+      "ansi": {
+        "primary": 126,
+        "secondary": 215
+      }
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "alpine linux",
+        "alpine"
+      ],
+      "file": "defaults/linux/alpine.txt",
+      "colors": {
+        "primary": "#0D597F",
+        "secondary": "#1E6F9F"
+      },
+      "url": "https://alpinelinux.org",
+      "ansi": {
+        "primary": 24,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "solus",
+      "name": "Solus",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "solus"
+      ],
+      "file": "defaults/linux/solus.txt",
+      "colors": {
+        "primary": "#5294E2",
+        "secondary": "#1A1A1A"
+      },
+      "url": "https://getsol.us",
+      "ansi": {
+        "primary": 68,
+        "secondary": 234
+      }
+    },
+    {
+      "id": "pclinuxos",
+      "name": "PCLinuxOS",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "pclinuxos",
+        "pclos"
+      ],
+      "file": "defaults/linux/pclinuxos.txt",
+      "colors": {
+        "primary": "#6B8E23",
+        "secondary": "#3E5C0E"
+      },
+      "url": "https://www.pclinuxos.com",
+      "ansi": {
+        "primary": 64,
+        "secondary": 58
+      }
+    },
+    {
+      "id": "puppy",
+      "name": "Puppy Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "puppy linux",
+        "puppy"
+      ],
+      "file": "defaults/linux/puppy.txt",
+      "colors": {
+        "primary": "#F28500",
+        "secondary": "#E05500"
+      },
+      "url": "https://puppylinux.com",
+      "ansi": {
+        "primary": 208,
+        "secondary": 166
+      }
+    },
+    {
+      "id": "tinycore",
+      "name": "Tiny Core Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "tiny core linux",
+        "tiny core",
+        "tcl"
+      ],
+      "file": "defaults/linux/tinycore.txt",
+      "colors": {
+        "primary": "#3D6EA5",
+        "secondary": "#2A4D73"
+      },
+      "url": "http://tinycorelinux.net",
+      "ansi": {
+        "primary": 61,
+        "secondary": 23
+      }
+    },
+    {
+      "id": "clear-linux",
+      "name": "Clear Linux OS",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "clear linux",
+        "clear linux os",
+        "clearlinux"
+      ],
+      "file": "defaults/linux/clear-linux.txt",
+      "colors": {
+        "primary": "#2B9AF3",
+        "secondary": "#1E6FB8"
+      },
+      "url": "https://clearlinux.org",
+      "ansi": {
+        "primary": 33,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "gobolinux",
+      "name": "GoboLinux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "gobolinux",
+        "gobo"
+      ],
+      "file": "defaults/linux/gobolinux.txt",
+      "colors": {
+        "primary": "#00AEEF",
+        "secondary": "#005E80"
+      },
+      "url": "https://www.gobolinux.org",
+      "ansi": {
+        "primary": 39,
+        "secondary": 24
+      }
+    },
+    {
+      "id": "bedrock",
+      "name": "Bedrock Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "bedrock linux",
+        "bedrock"
+      ],
+      "file": "defaults/linux/bedrock.txt",
+      "colors": {
+        "primary": "#7B7B7B",
+        "secondary": "#4A4A4A"
+      },
+      "url": "https://bedrocklinux.org",
+      "ansi": {
+        "primary": 243,
+        "secondary": 239
+      }
+    },
+    {
+      "id": "chimera",
+      "name": "Chimera Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "chimera linux",
+        "chimera"
+      ],
+      "file": "defaults/linux/chimera.txt",
+      "colors": {
+        "primary": "#E6B400",
+        "secondary": "#8A6D00"
+      },
+      "url": "https://chimera-linux.org",
+      "ansi": {
+        "primary": 178,
+        "secondary": 94
+      }
+    },
+    {
+      "id": "serpent",
+      "name": "Serpent OS",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "serpent os",
+        "serpent"
+      ],
+      "file": "defaults/linux/serpent.txt",
+      "colors": {
+        "primary": "#30BA78",
+        "secondary": "#1F7A4F"
+      },
+      "url": "https://serpentos.com",
+      "ansi": {
+        "primary": 72,
+        "secondary": 29
+      }
+    },
+    {
+      "id": "crystal",
+      "name": "Crystal Linux",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "crystal linux",
+        "crystal"
+      ],
+      "file": "defaults/linux/crystal.txt",
+      "colors": {
+        "primary": "#EF6B2A",
+        "secondary": "#B84A12"
+      },
+      "url": "https://getcryst.al",
+      "ansi": {
+        "primary": 202,
+        "secondary": 130
+      }
+    },
+    {
+      "id": "kaos",
+      "name": "KaOS",
+      "category": "linux",
+      "family": "independent",
+      "aliases": [
+        "kaos"
+      ],
+      "file": "defaults/linux/kaos.txt",
+      "colors": {
+        "primary": "#4A8DCE",
+        "secondary": "#2E5E8C"
+      },
+      "url": "https://kaosx.us",
+      "ansi": {
+        "primary": 68,
+        "secondary": 24
+      }
+    },
+    {
+      "id": "macos",
+      "name": "macOS",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos",
+        "mac os",
+        "mac",
+        "apple",
+        "os x"
+      ],
+      "file": "defaults/macos/macos.txt",
+      "colors": {
+        "primary": "#A2AAAD",
+        "secondary": "#5A5A5A"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 248,
+        "secondary": 240
+      }
+    },
+    {
+      "id": "macos-sequoia",
+      "name": "macOS Sequoia (15)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos sequoia",
+        "sequoia",
+        "macos 15"
+      ],
+      "file": "defaults/macos/macos-sequoia.txt",
+      "colors": {
+        "primary": "#4A90D9",
+        "secondary": "#2C5F8A"
+      },
+      "url": "https://www.apple.com/macos/macos-sequoia",
+      "ansi": {
+        "primary": 68,
+        "secondary": 24
+      }
+    },
+    {
+      "id": "macos-sonoma",
+      "name": "macOS Sonoma (14)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos sonoma",
+        "sonoma",
+        "macos 14"
+      ],
+      "file": "defaults/macos/macos-sonoma.txt",
+      "colors": {
+        "primary": "#9B59B6",
+        "secondary": "#6C3483"
+      },
+      "url": "https://www.apple.com/macos/macos-sonoma",
+      "ansi": {
+        "primary": 97,
+        "secondary": 60
+      }
+    },
+    {
+      "id": "macos-ventura",
+      "name": "macOS Ventura (13)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos ventura",
+        "ventura",
+        "macos 13"
+      ],
+      "file": "defaults/macos/macos-ventura.txt",
+      "colors": {
+        "primary": "#5DADE2",
+        "secondary": "#2E86C1"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 74,
+        "secondary": 31
+      }
+    },
+    {
+      "id": "macos-monterey",
+      "name": "macOS Monterey (12)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos monterey",
+        "monterey",
+        "macos 12"
+      ],
+      "file": "defaults/macos/macos-monterey.txt",
+      "colors": {
+        "primary": "#6C9BD1",
+        "secondary": "#4A6FA8"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 68,
+        "secondary": 61
+      }
+    },
+    {
+      "id": "macos-bigsur",
+      "name": "macOS Big Sur (11)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos big sur",
+        "big sur",
+        "bigsur",
+        "macos 11"
+      ],
+      "file": "defaults/macos/macos-bigsur.txt",
+      "colors": {
+        "primary": "#8FB6DC",
+        "secondary": "#C39BD3"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 110,
+        "secondary": 140
+      }
+    },
+    {
+      "id": "macos-catalina",
+      "name": "macOS Catalina (10.15)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos catalina",
+        "catalina",
+        "macos 10.15"
+      ],
+      "file": "defaults/macos/macos-catalina.txt",
+      "colors": {
+        "primary": "#34495E",
+        "secondary": "#1B2631"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 238,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "macos-mojave",
+      "name": "macOS Mojave (10.14)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos mojave",
+        "mojave",
+        "macos 10.14"
+      ],
+      "file": "defaults/macos/macos-mojave.txt",
+      "colors": {
+        "primary": "#2E4053",
+        "secondary": "#212F3C"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 238,
+        "secondary": 236
+      }
+    },
+    {
+      "id": "macos-highsierra",
+      "name": "macOS High Sierra (10.13)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos high sierra",
+        "high sierra",
+        "macos 10.13"
+      ],
+      "file": "defaults/macos/macos-highsierra.txt",
+      "colors": {
+        "primary": "#C0B7B1",
+        "secondary": "#8D8581"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 250,
+        "secondary": 102
+      }
+    },
+    {
+      "id": "macos-sierra",
+      "name": "macOS Sierra (10.12)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "macos sierra",
+        "sierra",
+        "macos 10.12"
+      ],
+      "file": "defaults/macos/macos-sierra.txt",
+      "colors": {
+        "primary": "#6A88A8",
+        "secondary": "#4C6A8A"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 67,
+        "secondary": 60
+      }
+    },
+    {
+      "id": "osx-elcapitan",
+      "name": "OS X El Capitan (10.11)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "os x el capitan",
+        "el capitan",
+        "osx 10.11"
+      ],
+      "file": "defaults/macos/osx-elcapitan.txt",
+      "colors": {
+        "primary": "#B2B2B2",
+        "secondary": "#8C8C8C"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 249,
+        "secondary": 245
+      }
+    },
+    {
+      "id": "osx-yosemite",
+      "name": "OS X Yosemite (10.10)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "os x yosemite",
+        "yosemite",
+        "osx 10.10"
+      ],
+      "file": "defaults/macos/osx-yosemite.txt",
+      "colors": {
+        "primary": "#7BA7BC",
+        "secondary": "#4C7A94"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 109,
+        "secondary": 66
+      }
+    },
+    {
+      "id": "osx-mavericks",
+      "name": "OS X Mavericks (10.9)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "os x mavericks",
+        "mavericks",
+        "osx 10.9"
+      ],
+      "file": "defaults/macos/osx-mavericks.txt",
+      "colors": {
+        "primary": "#8FA9BC",
+        "secondary": "#5E7D93"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 109,
+        "secondary": 66
+      }
+    },
+    {
+      "id": "osx-mountainlion",
+      "name": "OS X Mountain Lion (10.8)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "os x mountain lion",
+        "mountain lion",
+        "osx 10.8"
+      ],
+      "file": "defaults/macos/osx-mountainlion.txt",
+      "colors": {
+        "primary": "#7E93B8",
+        "secondary": "#55688F"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 103,
+        "secondary": 60
+      }
+    },
+    {
+      "id": "osx-lion",
+      "name": "Mac OS X Lion (10.7)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x lion",
+        "lion",
+        "osx 10.7"
+      ],
+      "file": "defaults/macos/osx-lion.txt",
+      "colors": {
+        "primary": "#A9BBC9",
+        "secondary": "#71848F"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 146,
+        "secondary": 66
+      }
+    },
+    {
+      "id": "osx-snowleopard",
+      "name": "Mac OS X Snow Leopard (10.6)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x snow leopard",
+        "snow leopard",
+        "osx 10.6"
+      ],
+      "file": "defaults/macos/osx-snowleopard.txt",
+      "colors": {
+        "primary": "#D0D0D0",
+        "secondary": "#A0A0A0"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 252,
+        "secondary": 247
+      }
+    },
+    {
+      "id": "osx-leopard",
+      "name": "Mac OS X Leopard (10.5)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x leopard",
+        "leopard",
+        "osx 10.5"
+      ],
+      "file": "defaults/macos/osx-leopard.txt",
+      "colors": {
+        "primary": "#9FB3C4",
+        "secondary": "#63798C"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 146,
+        "secondary": 66
+      }
+    },
+    {
+      "id": "osx-tiger",
+      "name": "Mac OS X Tiger (10.4)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x tiger",
+        "tiger",
+        "osx 10.4"
+      ],
+      "file": "defaults/macos/osx-tiger.txt",
+      "colors": {
+        "primary": "#7E9BC0",
+        "secondary": "#4E6D93"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 103,
+        "secondary": 60
+      }
+    },
+    {
+      "id": "osx-panther",
+      "name": "Mac OS X Panther (10.3)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x panther",
+        "panther",
+        "osx 10.3"
+      ],
+      "file": "defaults/macos/osx-panther.txt",
+      "colors": {
+        "primary": "#333B4A",
+        "secondary": "#1F2430"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 237,
+        "secondary": 235
+      }
+    },
+    {
+      "id": "osx-jaguar",
+      "name": "Mac OS X Jaguar (10.2)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x jaguar",
+        "jaguar",
+        "osx 10.2"
+      ],
+      "file": "defaults/macos/osx-jaguar.txt",
+      "colors": {
+        "primary": "#4A5568",
+        "secondary": "#2D3540"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 240,
+        "secondary": 237
+      }
+    },
+    {
+      "id": "osx-puma",
+      "name": "Mac OS X Puma (10.1)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x puma",
+        "puma",
+        "osx 10.1"
+      ],
+      "file": "defaults/macos/osx-puma.txt",
+      "colors": {
+        "primary": "#607080",
+        "secondary": "#3A4654"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 60,
+        "secondary": 238
+      }
+    },
+    {
+      "id": "osx-cheetah",
+      "name": "Mac OS X Cheetah (10.0)",
+      "category": "macos",
+      "family": "macos",
+      "aliases": [
+        "mac os x cheetah",
+        "cheetah",
+        "osx 10.0"
+      ],
+      "file": "defaults/macos/osx-cheetah.txt",
+      "colors": {
+        "primary": "#7B8494",
+        "secondary": "#4E5663"
+      },
+      "url": "https://www.apple.com/macos",
+      "ansi": {
+        "primary": 102,
+        "secondary": 240
+      }
+    },
+    {
+      "id": "windows",
+      "name": "Windows",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows",
+        "win",
+        "ms windows",
+        "windows logo"
+      ],
+      "file": "defaults/windows/windows.txt",
+      "colors": {
+        "primary": "#0078D4",
+        "secondary": "#00BCF2"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 32,
+        "secondary": 39
+      }
+    },
+    {
+      "id": "windows-11",
+      "name": "Windows 11",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 11",
+        "win11",
+        "windows11"
+      ],
+      "file": "defaults/windows/windows-11.txt",
+      "colors": {
+        "primary": "#0078D4",
+        "secondary": "#0049B9"
+      },
+      "url": "https://www.microsoft.com/windows/windows-11",
+      "ansi": {
+        "primary": 32,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "windows-10",
+      "name": "Windows 10",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 10",
+        "win10",
+        "windows10"
+      ],
+      "file": "defaults/windows/windows-10.txt",
+      "colors": {
+        "primary": "#0078D7",
+        "secondary": "#005A9E"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 32,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "windows-8-1",
+      "name": "Windows 8.1",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 8.1",
+        "win 8.1"
+      ],
+      "file": "defaults/windows/windows-8-1.txt",
+      "colors": {
+        "primary": "#0072C6",
+        "secondary": "#00A4EF"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 26,
+        "secondary": 39
+      }
+    },
+    {
+      "id": "windows-8",
+      "name": "Windows 8",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 8",
+        "win8",
+        "windows8"
+      ],
+      "file": "defaults/windows/windows-8.txt",
+      "colors": {
+        "primary": "#0072C6",
+        "secondary": "#68217A"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 26,
+        "secondary": 54
+      }
+    },
+    {
+      "id": "windows-7",
+      "name": "Windows 7",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 7",
+        "win7",
+        "windows7"
+      ],
+      "file": "defaults/windows/windows-7.txt",
+      "colors": {
+        "primary": "#4E9FDB",
+        "secondary": "#0067AC"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 74,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "windows-vista",
+      "name": "Windows Vista",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows vista",
+        "vista"
+      ],
+      "file": "defaults/windows/windows-vista.txt",
+      "colors": {
+        "primary": "#8CB1D9",
+        "secondary": "#5D8AB0"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 110,
+        "secondary": 67
+      }
+    },
+    {
+      "id": "windows-xp",
+      "name": "Windows XP",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows xp",
+        "xp",
+        "winxp"
+      ],
+      "file": "defaults/windows/windows-xp.txt",
+      "colors": {
+        "primary": "#0067AC",
+        "secondary": "#00A64F"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 25,
+        "secondary": 35
+      }
+    },
+    {
+      "id": "windows-2000",
+      "name": "Windows 2000",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 2000",
+        "windows 2k",
+        "win2k",
+        "win2000"
+      ],
+      "file": "defaults/windows/windows-2000.txt",
+      "colors": {
+        "primary": "#0089D9",
+        "secondary": "#005E8C"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 32,
+        "secondary": 24
+      }
+    },
+    {
+      "id": "windows-me",
+      "name": "Windows Millennium Edition",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows me",
+        "windows millennium",
+        "windows millennium edition",
+        "winme"
+      ],
+      "file": "defaults/windows/windows-me.txt",
+      "colors": {
+        "primary": "#00A0E6",
+        "secondary": "#0073A8"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 38,
+        "secondary": 25
+      }
+    },
+    {
+      "id": "windows-98",
+      "name": "Windows 98",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 98",
+        "win98"
+      ],
+      "file": "defaults/windows/windows-98.txt",
+      "colors": {
+        "primary": "#0089D9",
+        "secondary": "#005E8C"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 32,
+        "secondary": 24
+      }
+    },
+    {
+      "id": "windows-95",
+      "name": "Windows 95",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 95",
+        "win95"
+      ],
+      "file": "defaults/windows/windows-95.txt",
+      "colors": {
+        "primary": "#0089D9",
+        "secondary": "#B3D9F2"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 32,
+        "secondary": 153
+      }
+    },
+    {
+      "id": "windows-nt",
+      "name": "Windows NT",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows nt",
+        "nt"
+      ],
+      "file": "defaults/windows/windows-nt.txt",
+      "colors": {
+        "primary": "#FF9900",
+        "secondary": "#E6192C"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 208,
+        "secondary": 160
+      }
+    },
+    {
+      "id": "windows-3x",
+      "name": "Windows 3.x",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows 3.x",
+        "windows 3.1",
+        "windows 3.0",
+        "windows 3x"
+      ],
+      "file": "defaults/windows/windows-3x.txt",
+      "colors": {
+        "primary": "#1F4E79",
+        "secondary": "#B7C7E0"
+      },
+      "url": "https://www.microsoft.com/windows",
+      "ansi": {
+        "primary": 24,
+        "secondary": 152
+      }
+    },
+    {
+      "id": "windows-server",
+      "name": "Windows Server",
+      "category": "windows",
+      "family": "windows",
+      "aliases": [
+        "windows server",
+        "server",
+        "winserver"
+      ],
+      "file": "defaults/windows/windows-server.txt",
+      "colors": {
+        "primary": "#0078D4",
+        "secondary": "#382C9B"
+      },
+      "url": "https://www.microsoft.com/windows-server",
+      "ansi": {
+        "primary": 32,
+        "secondary": 54
+      }
+    }
+  ]
+}
