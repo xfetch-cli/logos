@@ -22,7 +22,7 @@
 
 <h2 id="features" align="center"> Features</h2>
 
-- **127+ logos**: Linux distributions (Arch, Debian/Ubuntu, Fedora/RHEL, openSUSE, Void, Gentoo, ...), macOS (version-specific from Cheetah to Sequoia) and Windows (3.x to 11).
+- **128+ logos**: Linux distributions (Arch, X, Debian/Ubuntu, Fedora/RHEL, openSUSE, Void, Gentoo, ...), macOS (version-specific from Cheetah to Sequoia) and Windows (3.x to 11).
 - **Standard sizing**: each logo is a rectangular block of ~12 rows, world-readable UTF-8 text.
 - **Machine-readable index**: `logos.json` maps every distro id, aliases, family, colors and ANSI codes to its file.
 - **Resolution chain**: exact `ID` → `ID_LIKE` → generic logo (used by `xfetch --gen-config`).

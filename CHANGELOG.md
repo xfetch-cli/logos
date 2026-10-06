@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-06 — Unreleased
+
+### Added
+
+- New `equis` logo entry (`defaults/linux/equis.txt`): alternative X Linux art, selectable with `xfetch --gen-config --logo equis`. Reuses the `x` entry palette (cyan, ANSI 51/38) and the `arch` family.
+
 ## 2026-08-18 — v0.1.0
 
 ### Initial Catalog
